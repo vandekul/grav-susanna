@@ -1,0 +1,15 @@
+{% extends 'default.html.twig' %}
+
+{% block body_content %}
+  <section id="main" class="container 75%">
+    <header>
+      <h2>{{ page.title }}</h2>
+      {% if page.header.subtitle %}<p>{{ page.header.subtitle }}</p>{% endif %}
+    </header>
+
+    <div class="box">
+      <div class="col-full tab-full contact__form">
+        {% include "forms/form.html.twig" %}
+      </div>
+  </section>
+{% endblock %}

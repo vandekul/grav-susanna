@@ -1,0 +1,29 @@
+{% set collection = page.collection() %}
+
+{% block content %}
+	<div class="row">
+		<div class="12u">
+		<!-- Image -->
+		<section class="box">
+			<h3>Image</h3>
+			<h4>Fit {{ page.media.url }}</h4>
+			{% set images = page.media.url %}
+			<div class="box alt">
+			{% for img in images %}
+				{% if loop.index % 3 == 0 %}
+					<div class="row no-collapse 50% uniform">
+				{% endif %}
+						<div class="4u">
+							<span class="image fit">
+								<img src= {{ img }} alt="" />
+							</span>
+						</div>
+				{% if loop.index % 3 == 0 %}
+					</div>
+				{% endif %}	
+			{% endfor %}
+			</div>
+		</section>
+		</div>
+	</div>
+{% endblock %}

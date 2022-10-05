@@ -1,0 +1,13 @@
+enabled: true
+cdn: true
+popup_background_color: '#e89980'
+popup_text_color: '#ffffff'
+button_background_color: '#ffffff'
+button_text_color: '#e89980'
+button_border_color: '#ffffff'
+position: bottom
+theme: classic
+content_message: 'Aquesta web utilitza cookies, com saps es obligatori que t''ho digui :)'
+content_dismiss: 'Sí, clar endavant!'
+content_link: 'Política de Privacitat'
+content_href: /politica-privacidad

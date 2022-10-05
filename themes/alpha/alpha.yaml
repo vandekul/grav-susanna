@@ -1,0 +1,19 @@
+enabled: true
+
+# Social links
+social_links:
+  - title: "Linkedin"
+    icon: "linkedin"
+    url: "https://www.linkedin.com/in/susanna-fort-27416032/"
+
+  - title: "Github"
+    icon: "github"
+    url: "https://github.com/vandekul"
+
+# Grav streams
+streams:
+  schemes:
+    theme:
+      type: ReadOnlyStream
+      paths:
+        - user/themes/alpha
