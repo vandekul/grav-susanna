@@ -1237,15 +1237,23 @@
 			margin-bottom: 0;
 		}
 
-		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
+		#banner h4 {
+			text-shadow: 1px 1px 1px #1a1a1a;
 			color: #fff;
 		}
+
+		#banner h2, #banner h3, #banner h5, #banner h6 {
+			color: #fff;
+		}
+
+
 
 		#banner h2 {
 			font-size: 3.5em;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
+			text-shadow: 1px 1px 1px #000;
 		}
 
 		#banner p {
