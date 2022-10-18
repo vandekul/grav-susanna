@@ -8,6 +8,7 @@ robots:
     noindex: false
     nofollow: false
 ---
+
 <header class="major">
     <h2>El meu estil <br /> </h2>
 </header>  
